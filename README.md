@@ -45,7 +45,7 @@ Windows에서는 `python` 대신 `py` 또는 `py -3`을 사용할 수 있습니�
 pip3 install -r requirements.txt
 ```
 > 의존성 패키지들을 설치합니다 (`Django`, `psycopg2-binary`, `gunicorn` 등)
-> 본인은 python3.8.10에서 설치를 진행했으므로 Django 라인은 주석처리 후 진행
+> <br/>본인은 python3.8.10에서 설치를 진행했으므로 Django 라인은 주석처리 후 진행
 
 ```bash
 python3 manage.py makemigrations
@@ -76,7 +76,7 @@ python3 manage.py createsuperuser
 python3 manage.py runserver 0.0.0.0:8000
 ```
 > 서버를 실행합니다 (기본 포트는 `http://127.0.0.1:8000/`)
-> 클라우드 환경에서 접속하는 경우 locallibrary/settings.py에서 ALLOW_HOSTS에 본인 서버 공인 IP 추가 필요
+> <br/>클라우드 환경에서 접속하는 경우 locallibrary/settings.py에서 ALLOW_HOSTS에 본인 서버 공인 IP 추가 필요
 ---
 
 ### 3. 사이트 접속
